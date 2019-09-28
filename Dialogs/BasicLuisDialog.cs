@@ -33,8 +33,6 @@ namespace Microsoft.Bot.Sample.LuisBot
             await this.ShowLuisResult(context, result);
         }
         
-        //Copy from here
-        
         public string city = null;
         public string state = null;
         [LuisIntent("WeatherForecast")]
@@ -120,8 +118,6 @@ namespace Microsoft.Bot.Sample.LuisBot
             reply.Attachments.Add(attachment);
             await context.PostAsync(reply);
         }
-        
-        //Until here
         
         private async Task ShowLuisResult(IDialogContext context, LuisResult result) 
         {
