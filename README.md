@@ -1,5 +1,5 @@
 # WeatherBot
-- Siddharth Chandrasekar
+Siddharth Chandrasekar, 2018
 
 A Weather bot built using the Microsoft Bot Framework.
 
